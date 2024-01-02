@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "CombineAlerts",
+    "slug": "myalerts",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.darkfury5443.myalerts"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.darkfury5443.myalerts"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b9d1464-bd7f-4fc4-8f35-59205caa36fe"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "http://localhost:3000/api/manifest"
+    },
+    "owner": "darkfury5443"
+  }
+}
